@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Yahoo Test">
+  <test thread-count="5" name="Test">
+  <parameter name="url" value="https://login.yahoo.com/"></parameter>
+  <parameter name="email" value="k@yahoo.com"></parameter>
+    <classes>
+      <class name="TestNGPKG.TestngParameter"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
